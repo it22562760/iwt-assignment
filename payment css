@@ -6,37 +6,56 @@ body{
 	background-image:url(image/background-4038455.png);
 } 
 .image{
-	margin-left: 20%;
+	position:fixed;
+	margin-left: 15%;
  transform: translateY(150px);
-     
+     margin-top: -35%;
+	 
 }
 .currency {
 	margin-left: 90%;
-	margin-top: -10%;
+	margin-top: 10%;
+
 }
 .text {
-	font-size:10px;
+	position:fixed;
+	font-size:15px;
 	line-height:1em;
-	margin-left: 20%;
-	transform: translateY(160px);
+	margin-left:20%;
+	margin-top: -08%;
+	backdrop-filter: blur(5px);
 }
 .set-amount {
 	max-width: 96px;
 }
 .head {
 margin-left: 50%;
-margin-top: 15%;
+margin-top: 0% auto;
+width:25%;
+height: 50%;
+background-image: url(image/-removebg-preview.png);
+background-position: left;
+backdrop-filter: blur(5px);
+text-align:center;	
+color: #fff;
+  text-shadow: 
+    -3px -1px 0 #000,  
+    1px -4px 0 #000,   
+    -1px 1px 0 #000,   
+    1px 1px 0 #000;
+	border: 3px solid #000;
+	border-radius: 15px;
 
 }
 
 .switch {
   position: absolute;
   top: 20px;
-  left: 880px;
-  margin-top: 20%;
+  left: 1030px;
+  margin-top: 15%;
   height: 26px;
   width:230px;
-  background: #b2cbcb;
+  background: #d7dddd;
   border-radius: 3px;
 }
 
@@ -47,7 +66,7 @@ margin-top: 15%;
 	width: 40%;
 	line-height: 26px;
 	font-size: 11px;
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 	cursor: pointer;
 	font-weight: bold;
@@ -91,36 +110,28 @@ margin-top: 15%;
 	left: 2px;
 	width: 50%;
 	height: 22px;
+
+	
 	background: #65bd63;
 	border-radius: 3px;
-	background-color: #4CAF50;
+	background-color: #86dc83;
 	
 	-webkit-transition: left 0.15s ease-out;
 	-moz-transition: left 0.15s ease-out;
 	-o-transition: left 0.15s ease-out;
 	transition: left 0.15s ease-out;
-  
-  }
-  form {
-	background-color: #d0e1e3;
-	border-radius: 5px;
-	padding: 20px;
-	margin-top: 20px;
-
   }
   .h2 {
-	margin-left: 20%;
+	position: absolute;
+	margin-left: 52.8%;
+	margin-top:-16%;
   }
 
 
  .h2 input[type="radio"] {
 	display: none;
 
-  }
-  .h2 {
-	transform: translateX(500px);
-	margin-top:30;
-  }
+ }
 
  .h2 label {
 	display: inline-block;
@@ -128,27 +139,28 @@ margin-top: 15%;
 	height: 40px;
 	line-height:40px;
 	text-align: center;
-	background-color: #5365af;
-	color: #ffffff;
+	background-color: #86dc83;
+	color: #000000;
 	border-radius: 10px;
 	cursor: pointer;
 	margin-right: 30px;
   }
 
  .h2 label:hover {
-	background-color: #141881;
+	background-color: #4fab63;
   }
 
  .h2 input[type="text"] {
 	width: 330px;
 	height: 40px;
-	color: #ffffff;
-	background-color: #5365af;
+	color: #020202;
+	background-color: #86dc83;
 	text-align: center;
 	border-radius: 30px;
   }
 .h2 input:hover{
-	background-color:#474865 ;
+	background-color:#4c785b ;
+	border: 5px solid #222327
 	
 }
  .h2 input[type="submit"] {
@@ -166,11 +178,11 @@ margin-top: 15%;
   .s {
 	position: absolute;
 	top: 200px;
-	left: 880px;
+	left: 1025px;
 	margin-top: 20%;
 	height: 20px;
 	width:230px;
-	background: #b2cbcb;
+	background: #d7dddd;
 	
   }
   
@@ -181,7 +193,7 @@ margin-top: 15%;
 	  width: 40%;
 	  line-height: 26px;
 	  font-size: 11px;
-	  color: #f9f8f8;
+	  color: #000000;
 	  text-align: center;
 	  cursor: pointer;
 	  font-weight: bold;
@@ -227,10 +239,145 @@ margin-top: 15%;
 	  height: 20px;
 	  background: #65bd63;
 	  border-radius: 3px;
-	  background-color: #234a63;
+	  background-color: #86dc83;
 	  
 	  -webkit-transition: left 0.15s ease-out;
 	  -moz-transition: left 0.15s ease-out;
 	  -o-transition: left 0.15s ease-out;
 	  transition: left 0.15s ease-out;
 	}
+	.container {
+		margin-top: -4.5%;
+		margin-left: 60%;
+		width: 200px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		
+	}
+	.container .btn {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 250px;
+		height: 50px;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.container .btn a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgba(255, 255, 255, 0.05);
+		box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+		
+		border-radius: 30px;
+		padding: 10px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		overflow: hidden;
+		color: #000000;
+		font-weight: 400px;
+		z-index: 1;
+		transition: 0.5s;
+		backdrop-filter: blur(15px);
+	}
+	.container .btn:hover a {
+		letter-spacing: 3px;
+	}
+	.container .btn a::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		background: linear-gradient(to left, rgba(45, 43, 43, 0.15), transparent);
+		transform: skewX(45deg) translate(0);
+		transition: 0.5s;
+		filter: blur(0px);
+	}
+	.container .btn:hover a::before {
+		transform: skewX(45deg) translate(200px);
+	}
+	.container .btn::before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+		bottom: -5px;
+		width: 30px;
+		height: 10px;
+		background: #f00;
+		border-radius: 10px;
+		transition: 0.5s;
+		transition-delay: 0.5;
+	}
+	.container .btn:hover::before {
+		bottom: 0;
+		height: 50%;
+		width: 80%;
+		border-radius: 30px;
+	}
+	
+	.container .btn::after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+		top: -5px;
+		width: 30px;
+		height: 10px;
+		background: #f00;
+		border-radius: 10px;
+		transition: 0.5s;
+		transition-delay: 0.5;
+	}
+	.container .btn:hover::after  {
+		top: 0;
+		height: 50%;
+		width: 80%;
+		border-radius: 30px;
+	}
+	.container .btn:nth-child(1)::before, 
+	.container .btn:nth-child(1)::after {
+		background: #4CAF50;
+		box-shadow: 0 0 5px #4CAF50, 0 0 15px #4CAF50, 0 0 30px #4CAF50,
+			0 0 60px #4CAF50;
+	}
+	.input {
+	
+		position:relative;
+	
+		font-size: 1.5em;
+		
+		background: linear-gradient(21deg, #10abff, #1beabd);
+		
+		padding: 5px;
+	
+		display: inline-block;
+		
+		border-radius: 9999em;
+		
+		 
+		*:not(span) {
+			position: relative;
+			display: inherit;
+			border-radius: inherit;
+			margin: 0;
+			border: none;
+			outline: none;
+			padding: 0 .325em;
+			z-index: 1;
+			&:focus + span {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}}
