@@ -5,24 +5,31 @@
     <title>Our Charity Websites</title>
 
     
-    <link rel="Stylesheet" Href="sytle.css">"
+    <link rel="Stylesheet" Href="sytle.css">
 </head>
 <body>
     
     <div id="main_wrapper">
-        <nav>
-            <div id="menu">
-                <img src="logo"alt="">
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">contact us</a></li>
-                </ul>
+        <div class="navBar">
+            <a class="logo" href="/index.html"
+                ><img src="image/l6.png" alt="logo"
+            /></a>
+         
+            <div class="n1">
+                <a  href="a">Home</a>
+                <a href="a">Recipes</a>
+                <a href="a">About us</a>
+                <a class="active" href="a">Donation</a>
+        
             </div>
-        </nav>
+
+            <input type="text" placeholder="Search Recipes.." />
+            <button type="submit">Search</button>
+        </div>
+
         <div class="content">
             <div class="text">
-            <h1>Our charity.Our Community</h1>
+            <h1>Our charity.<br>Our Community</h1>
             <p>Support our Recipe Management System! Help us maintain and improve our platform by making a donation.</br>
             Your contribution ensures that we can continue to provide a user-friendly experience,</br> develop new features,
             and support our community of food enthusiasts.</br> Join us in fostering culinary creativity and making cooking a
@@ -40,5 +47,67 @@
         </div>
         
     </div>
+    <link href="footer.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <script src="function subscribe() {.js"></script>
+    <footer class="hero">
+            <div class="container flex">
+                <div class="container__about">
+                    <img src="image/l6.png"width="100px" height="60px"></br></br>
+                    <h2>READY TO COOK?</h2>
+                    <p>sign up for our weekly newsletters! </p>
+                </div>
+                <div class="container-pages flex">
+    
+                    <div class="container__recentpages">
+                        <h2>Pages</h2>
+                        <ul>
+                            <li><a href="">RECIPES</a></li>
+                            <li><a href="">FAVOURITES</a></li>
+                            <li><a href="">ABOUT US</a></li>
+                            <li><a href="">DONATION</a></li>
+                        </ul>
+                    </div>
+                    <div class="container__more">
+                        <h2>Useful links</h2>
+                        <ul>
+                            <li><a href="">FAQ's</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Yerms of Use</a></li>
+                            <li><a href="">Contact</a></li>
+                            
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="line__separete"></div>
+            
+                
+            <div class="by flex">
+                <form class="searchform cf">
+                    <input type="email" placeholder="Enter Your Email">
+                    <button id="subscribeBtn" onclick="subscribe()">Subscribe</button>
+                  </form>
+                    
+                <div class="icons">
+                    <p>LET'S BE FRIENDS::</p>
+                    <a href="https://www.instagram.com" class="icon1 icon--instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com" class="icon1 icon--twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com" class="icon1 icon--facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.yahoo.com" class="icon1 icon--yahoo">
+                        <i class="fab fa-yahoo"></i>
+                    </a>
+                </div>
+            </div>
+    
+        </footer>
 </body>
+
 </html>
